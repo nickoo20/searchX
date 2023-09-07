@@ -31,7 +31,7 @@ const SearchResult = () => {
             payload.searchType = "image" ;
         }
         fetchDataFromApi(payload, imageSearch).then((res) => { 
-            console.log(res) ;
+            // console.log(res) ;
             setResult(res)   ;
         })
     }

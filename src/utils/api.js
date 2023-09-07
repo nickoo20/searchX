@@ -1,9 +1,9 @@
-import axios from "axios";
-const BASE_URL = "https://www.googleapis.com/customsearch/v1"
+import axios from "axios" ;
+const BASE_URL = "https://www.googleapis.com/customsearch/v1" ;
 
 const params = {
-      key: import.meta.env.VITE_REACT_API_KEY,
-      cx: import.meta.env.VITE_REACT_CONTEXT_KEY
+      key : import.meta.env.VITE_REACT_API_KEY,
+      cx  : import.meta.env.VITE_REACT_CONTEXT_KEY
 }
 
 export const fetchDataFromApi =  async(payload) => {

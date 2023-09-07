@@ -22,7 +22,7 @@ const Pagination = ({queries}) => {
         setPage(startIndex)
         navigate(`/${query}/${startIndex}`)
     }
-
+    
     return (
         <div className="flex flex-col items-center py-14">
             <div className="relative text-[#4285f4] ">
